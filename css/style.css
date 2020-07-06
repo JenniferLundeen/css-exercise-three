@@ -21,17 +21,6 @@ nav {
   width: 450px;
 }
 
-i {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  width: 20px;
-}
-
-.arrow {
-  float: right;
-}
-
 .restaurant-list {
   padding-top: 40px;
 }
@@ -46,8 +35,21 @@ i {
   width: 100%;
 }
 
+.location:hover {
+  background-color: #ccc;
+}
+
 .content {
+  display: inline-block;
   padding: 20px;
+  width: 80%;
+}
+
+.arrow {
+  display: inline-block;
+  float: right;
+  margin: 25px;
+  width: 5%;
 }
 
 
