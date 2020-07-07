@@ -53,7 +53,7 @@ nav {
 }
 
 
-h1 {
+h1, h3 {
     font-size: 180%; /* 18px */
     font-weight: 900;
     text-transform: capitalize;
@@ -63,6 +63,5 @@ h1 {
 
 h3 {
     font-size: 140%; /* 14px */
-    text-transform: capitalize;
-    text-align: left;
+    font-weight: 400;
 }
